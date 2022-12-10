@@ -19,7 +19,7 @@ pipeline{
 		}
 		stage('4th-member of group3'){
 			steps{
-				sh 'ecgo "Dele Adeneye"'
+				sh 'echo "Dele Adeneye"'
 			}
 		}
 		stage('5th-member of group3'){
